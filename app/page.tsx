@@ -1,19 +1,5 @@
-import { Navigation } from "@/components/navigation"
-import { Hero } from "@/components/hero"
-import { About } from "@/components/about"
-import { Projects } from "@/components/projects"
-import { Contact } from "@/components/contact"
+import { redirect } from "next/navigation";
 
-export default function Home() {
-  return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
-      </main>
-    </div>
-  )
+export default function RootRedirect() {
+  redirect("/en");
 }
