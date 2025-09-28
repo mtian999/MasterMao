@@ -1,0 +1,22 @@
+{
+  "sectionTitle": "关于我",
+  "intro": "我是一名充满热情的全栈开发者，专注于创建现代化的Web应用程序。我相信技术的力量能够改变世界，并致力于通过代码创造有意义的数字体验。",
+  "skills": {
+    "frontend": {
+      "title": "前端开发",
+      "description": "精通React、Next.js、TypeScript等现代前端技术栈，构建响应式和交互式用户界面。"
+    },
+    "backend": {
+      "title": "后端架构",
+      "description": "熟悉Node.js、数据库设计和API开发，构建高性能的服务端应用。"
+    },
+    "uiux": {
+      "title": "UI/UX设计",
+      "description": "注重用户体验设计，使用现代设计系统创造美观且易用的界面。"
+    },
+    "team": {
+      "title": "团队协作",
+      "description": "具备良好的沟通能力和团队合作精神，能够高效完成项目交付。"
+    }
+  }
+}

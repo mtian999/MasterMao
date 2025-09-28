@@ -1,0 +1,24 @@
+{
+  "sectionTitle": "Contact Me",
+  "sectionIntro1": "If you have an interesting project idea or want to discuss technical topics, I'd love to hear from you.",
+  "sectionIntro2": "Let's create something exciting together!",
+  "cards": {
+    "email": {
+      "title": "Email",
+      "description": "Have a project or technical discussion in mind?",
+      "action": "Send email"
+    },
+    "chat": {
+      "title": "Instant Chat",
+      "description": "Want to quickly discuss ideas or issues?",
+      "action": "Start conversation"
+    }
+  },
+  "social": {
+    "title": "Follow My Updates",
+    "subtitle": "Follow me on social media for the latest project updates and technical insights"
+  },
+  "footer": {
+    "copyright": "© 2025 MasterMao. Crafting every project with care."
+  }
+}

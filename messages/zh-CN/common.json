@@ -1,0 +1,13 @@
+{
+  "brand": "MasterMao",
+  "nav": {
+    "about": "关于我",
+    "projects": "项目",
+    "contact": "联系"
+  },
+  "language": {
+    "label": "语言",
+    "en": "English",
+    "zhCN": "简体中文"
+  }
+}

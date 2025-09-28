@@ -1,0 +1,16 @@
+{
+  "sectionTitle": "My Projects",
+  "sectionIntro": "Here are some projects I'm developing and maintaining, each reflecting my passion for technology and user experience.",
+  "activeLabel": "Active",
+  "visitSite": "Visit site",
+  "moreComing": "More projects are in development. Stay tuned...",
+  "viewMore": "View more projects",
+  "items": {
+    "mastermao": {
+      "description": "A feature-rich online toolbox offering various practical developer and everyday utilities to boost productivity."
+    },
+    "top4ai": {
+      "description": "A platform focused on discovering AI tools and resources, providing curated recommendations and reviews."
+    }
+  }
+}

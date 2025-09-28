@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, MessageCircle, Github, Linkedin } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export function Contact() {
   const [isVisible, setIsVisible] = useState(false);
@@ -26,19 +27,21 @@ export function Contact() {
     return () => observer.disconnect();
   }, []);
 
+  const t = useTranslations("contact");
+
   const contactMethods = [
     {
       icon: Mail,
-      title: "邮箱联系",
-      description: "有项目合作或技术交流需求？",
-      action: "发送邮件",
+      title: t("cards.email.title"),
+      description: t("cards.email.description"),
+      action: t("cards.email.action"),
       href: "mailto:support@mastermao.com",
     },
     {
       icon: MessageCircle,
-      title: "即时沟通",
-      description: "想要快速讨论想法或问题？",
-      action: "开始对话",
+      title: t("cards.chat.title"),
+      description: t("cards.chat.description"),
+      action: t("cards.chat.action"),
       href: "#",
     },
   ];
@@ -58,11 +61,10 @@ export function Contact() {
           }`}
         >
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            联系我
+            {t("sectionTitle")}
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            如果你有有趣的项目想法，或者想要讨论技术问题，我很乐意与你交流。
-            让我们一起创造些令人兴奋的东西吧！
+            {t("sectionIntro1")} {t("sectionIntro2")}
           </p>
         </div>
 
@@ -108,11 +110,9 @@ export function Contact() {
         >
           <div className="mb-8">
             <h3 className="text-2xl font-semibold text-foreground mb-4">
-              关注我的动态
+              {t("social.title")}
             </h3>
-            <p className="text-muted-foreground">
-              在社交媒体上关注我，获取最新的项目更新和技术分享
-            </p>
+            <p className="text-muted-foreground">{t("social.subtitle")}</p>
           </div>
 
           <div className="flex justify-center space-x-6">
@@ -139,9 +139,7 @@ export function Contact() {
           }`}
           style={{ animationDelay: "600ms" }}
         >
-          <p className="text-muted-foreground">
-            © 2025 MasterMao. 用心构建每一个项目。
-          </p>
+          <p className="text-muted-foreground">{t("footer.copyright")}</p>
         </div>
       </div>
     </section>

@@ -1,0 +1,22 @@
+{
+  "sectionTitle": "About Me",
+  "intro": "I am a passionate full‑stack developer focused on creating modern web applications. I believe in the power of technology to change the world and strive to craft meaningful digital experiences through code.",
+  "skills": {
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Proficient in React, Next.js and TypeScript, building responsive and interactive user interfaces."
+    },
+    "backend": {
+      "title": "Backend Architecture",
+      "description": "Experienced with Node.js, database design and API development to build high‑performance services."
+    },
+    "uiux": {
+      "title": "UI/UX Design",
+      "description": "Focused on user experience, leveraging modern design systems to create beautiful and usable interfaces."
+    },
+    "team": {
+      "title": "Team Collaboration",
+      "description": "Strong communication and teamwork skills, delivering projects efficiently."
+    }
+  }
+}
