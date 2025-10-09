@@ -11,6 +11,9 @@
     },
     "top4ai": {
       "description": "A platform focused on discovering AI tools and resources, providing curated recommendations and reviews."
+    },
+    "fate": {
+      "description": "An AI-powered destiny analysis site offering Zi Wei Dou Shu charts, I Ching divination, Five Elements insights, and multilingual content."
     }
   }
 }

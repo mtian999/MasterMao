@@ -44,6 +44,13 @@ export function Projects() {
       tags: ["Next.js", "AI", "Database", "API"],
       featured: true,
     },
+    {
+      title: "Fate MasterMao",
+      description: t("items.fate.description"),
+      url: "https://fate.mastermao.com/",
+      tags: ["Next.js", "Content", "Fate"],
+      featured: true,
+    },
   ];
 
   return (
@@ -112,9 +119,6 @@ export function Projects() {
                       <ExternalLink className="mr-2 h-4 w-4" />
                       {t("visitSite")}
                     </a>
-                  </Button>
-                  <Button variant="outline" size="icon">
-                    <Github className="h-4 w-4" />
                   </Button>
                 </div>
               </CardContent>
