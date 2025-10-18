@@ -45,6 +45,13 @@ export function Projects() {
       featured: true,
     },
     {
+      title: "Free Online Games",
+      description: t("items.freeonlinegame.description"),
+      url: "https://www.freeonlinegame.games/",
+      tags: ["Next.js", "TypeScript", "Games"],
+      featured: true,
+    },
+    {
       title: "Fate MasterMao",
       description: t("items.fate.description"),
       url: "https://fate.mastermao.com/",
