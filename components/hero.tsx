@@ -35,7 +35,7 @@ export function Hero() {
               isVisible ? "animate-fade-in-up" : "opacity-0"
             }`}
           >
-            <div className="space-y-4">
+            <div className="space-y-4 mt-16 sm:mt-0">
               <h1 className="text-5xl lg:text-7xl font-bold text-balance">
                 <span className="text-foreground">MasterMao</span>
               </h1>
