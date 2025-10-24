@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import { useTranslations, useFormatter } from "next-intl";
+import { projectsConfig } from "@/config/projects-config";
 
 export function Hero() {
   const [isVisible, setIsVisible] = useState(false);
@@ -125,7 +126,7 @@ export function Hero() {
               >
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">
-                    {f.number(2)}+
+                    {f.number(projectsConfig.length)}+
                   </div>
                   <div className="text-sm text-muted-foreground">
                     {t("stats.activeProjects")}

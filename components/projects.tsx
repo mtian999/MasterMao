@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
 import { useTranslations } from "next-intl";
-
+import { projectsConfig } from "@/config/projects-config";
 export function Projects() {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -29,36 +29,7 @@ export function Projects() {
 
   const t = useTranslations("projects");
 
-  const projects = [
-    {
-      title: "MasterMao Tools",
-      description: t("items.mastermao.description"),
-      url: "https://tool.mastermao.com/",
-      tags: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-      featured: true,
-    },
-    {
-      title: "Top4AI",
-      description: t("items.top4ai.description"),
-      url: "https://top4ai.com/",
-      tags: ["Next.js", "AI", "Database", "API"],
-      featured: true,
-    },
-    {
-      title: "Free Online Games",
-      description: t("items.freeonlinegame.description"),
-      url: "https://www.freeonlinegame.games/",
-      tags: ["Next.js", "TypeScript", "Games"],
-      featured: true,
-    },
-    {
-      title: "Fate MasterMao",
-      description: t("items.fate.description"),
-      url: "https://fate.mastermao.com/",
-      tags: ["Next.js", "Content", "Fate"],
-      featured: true,
-    },
-  ];
+  const projects = projectsConfig;
 
   return (
     <section id="projects" className="py-20">
@@ -99,7 +70,7 @@ export function Projects() {
               </CardHeader>
               <CardContent className="space-y-6">
                 <p className="text-muted-foreground leading-relaxed">
-                  {project.description}
+                  {t(project.description)}
                 </p>
 
                 <div className="flex flex-wrap gap-2">
