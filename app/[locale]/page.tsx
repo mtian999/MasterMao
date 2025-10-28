@@ -6,6 +6,9 @@ import { About } from "@/components/about";
 import { Projects } from "@/components/projects";
 import { Contact } from "@/components/contact";
 
+// 强制静态生成
+export const dynamic = "force-static";
+
 export default async function LocaleHome({
   params,
 }: {
