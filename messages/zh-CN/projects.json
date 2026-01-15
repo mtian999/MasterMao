@@ -17,6 +17,9 @@
     },
     "freeonlinegame": {
       "description": "免费在线玩游戏，无需下载！享受动作、益智、多人和街机游戏。每周新增游戏。"
+    },
+    "contentgenerator": {
+      "description": "受 Dan Koe 启发的 AI 辅助内容创作系统。包含素材库、框架模板、智能写作助手和多平台适配功能。"
     }
   }
 }

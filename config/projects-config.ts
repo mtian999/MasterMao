@@ -22,6 +22,13 @@ export const projectsConfig = [
     featured: true,
   },
   {
+    title: "Content Generator",
+    description: "items.contentgenerator.description",
+    url: "https://content-generator.mastermao.com/",
+    tags: ["Next.js", "AI", "Content Creation", "Productivity"],
+    featured: true,
+  },
+  {
     title: "Fate MasterMao",
     description: "items.fate.description",
     url: "https://fate.mastermao.com/",

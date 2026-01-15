@@ -17,6 +17,9 @@
     },
     "freeonlinegame": {
       "description": "Play free online games instantly in your browser. No download needed! Enjoy action, puzzle, multiplayer, and arcade games. New games added weekly."
+    },
+    "contentgenerator": {
+      "description": "An AI-assisted content creation system inspired by Dan Koe. Features include content library, framework templates, smart writing assistant, and multi-platform adaptation."
     }
   }
 }
