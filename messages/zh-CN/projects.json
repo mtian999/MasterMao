@@ -2,6 +2,7 @@
   "sectionTitle": "我的项目",
   "sectionIntro": "以下是我正在开发和维护的一些项目，每个项目都体现了我对技术的热情和对用户体验的追求。",
   "activeLabel": "活跃项目",
+  "disabledLabel": "已禁用",
   "visitSite": "访问网站",
   "moreComing": "更多项目正在开发中，敬请期待...",
   "viewMore": "查看更多项目",
@@ -20,6 +21,12 @@
     },
     "contentgenerator": {
       "description": "受 Dan Koe 启发的 AI 辅助内容创作系统。包含素材库、框架模板、智能写作助手和多平台适配功能。"
+    },
+    "mazemaker": {
+      "description": "在线创建和破解自定义迷宫。设计你自己的迷宫谜题，可调整难度级别，并与朋友分享。"
+    },
+    "jigsawpuzzle": {
+      "description": "在线拼图游戏。选择各种精美图片和难度级别，从简单的拼图到复杂的多片拼图挑战。"
     }
   }
 }

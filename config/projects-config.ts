@@ -33,6 +33,20 @@ export const projectsConfig = [
     description: "items.fate.description",
     url: "https://fate.mastermao.com/",
     tags: ["Next.js", "Content", "Fate"],
+    featured: false,
+  },
+  {
+    title: "Maze Maker",
+    description: "items.mazemaker.description",
+    url: "https://maze-maker.freeonlinegame.games/",
+    tags: ["Next.js", "TypeScript", "Games", "Puzzle"],
+    featured: true,
+  },
+  {
+    title: "Jigsaw Puzzle",
+    description: "items.jigsawpuzzle.description",
+    url: "https://jigsaw-puzzle.freeonlinegame.games/",
+    tags: ["Next.js", "TypeScript", "Games", "Puzzle"],
     featured: true,
   },
 ];

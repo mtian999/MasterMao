@@ -61,9 +61,13 @@ export function Projects() {
                   <CardTitle className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
                     {project.title}
                   </CardTitle>
-                  {project.featured && (
+                  {project.featured ? (
                     <div className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">
                       {t("activeLabel")}
+                    </div>
+                  ) : (
+                    <div className="bg-destructive/10 text-destructive px-3 py-1 rounded-full text-sm font-medium">
+                      {t("disabledLabel")}
                     </div>
                   )}
                 </div>
@@ -84,21 +88,23 @@ export function Projects() {
                   ))}
                 </div>
 
-                <div className="flex space-x-4 pt-4">
-                  <Button
-                    asChild
-                    className="bg-primary hover:bg-primary/90 text-primary-foreground"
-                  >
-                    <a
-                      href={project.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                {project.featured && (
+                  <div className="flex space-x-4 pt-4">
+                    <Button
+                      asChild
+                      className="bg-primary hover:bg-primary/90 text-primary-foreground"
                     >
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      {t("visitSite")}
-                    </a>
-                  </Button>
-                </div>
+                      <a
+                        href={project.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="mr-2 h-4 w-4" />
+                        {t("visitSite")}
+                      </a>
+                    </Button>
+                  </div>
+                )}
               </CardContent>
             </Card>
           ))}
